@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/blue-neon-frame-dark-background_53876-113902.jpg?t=st=1746472004~exp=1746475604~hmac=331ba04f74af0b5ae7564d888f40f1a75b325d4bb9e206a31ac98ee1c16d7ef1&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubar{
+    display: flex;
+    border: 1px solid black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.right{
+    a{
+        text-decoration: none;
+        margin-left: 100px;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: rgb(12, 2, 4);
+        font-weight: bold;
+    }
+}
+.left{
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+}
+.content{
+    display: flex;
+    height: 83vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+        text-transform: capitalize;
+        span{
+            color: orangered;
+        }
+        font-size: 50px;
+        color: aliceblue;
+    }
+    h3{
+        text-transform: capitalize;
+        font-size: 30px;
+        color: aliceblue;
+
+        span{
+            color: red;
+        }
+    }
+    #btn{
+        text-transform: capitalize;
+        width: 160px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: rgb(72, 9, 198);
+        border-radius: 40px;
+        
+    }
+    p{
+        width: 600px;
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 550;
+        color: aliceblue;
+
+        span{
+            color: red;
+        }
+    }
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    button{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        font-size: 20px;
+        background-color: black;
+        color: aqua;
+    }
+}
+
+.rightcontent{
+    img{
+        width: 450px;
+        height: 450px;
+        border-radius: 100%;
+    }
+}
+.footer{
+    width: 80%;
+    margin-left: 170px;
+    h2{
+        color: red;
+    }
+    p{
+        font-weight: 600;
+        color: aliceblue;
+
+        span{
+            color: rgb(209, 239, 11);
+        }
+    }
+}
