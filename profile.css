@@ -51,12 +51,12 @@ img{
             color: orangered;
         }
         font-size: 50px;
-        color: aliceblue;
+        color: rgb(14, 14, 15);
     }
     h3{
         text-transform: capitalize;
         font-size: 30px;
-        color: aliceblue;
+        color: rgb(8, 11, 14);
 
         span{
             color: red;
@@ -78,7 +78,7 @@ img{
         text-align: justify;
         font-size: 17px;
         font-weight: 550;
-        color: aliceblue;
+        color: rgb(6, 6, 6);
 
         span{
             color: red;
@@ -113,10 +113,10 @@ img{
     }
     p{
         font-weight: 600;
-        color: aliceblue;
+        color: rgb(8, 10, 11);
 
         span{
-            color: rgb(209, 239, 11);
+            color: rgb(252, 107, 3);
         }
     }
 }
